@@ -13,8 +13,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="sora-text my-6">
-    <header class="container mx-auto  md:mx-10 lg:mx-15">
-        <nav>
+          <header class="bg-white" >  
+        <nav class="container mx-auto  md:mx-10 lg:mx-20">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                      <img class="" src="c1-assets/logo-header.png" alt="">
@@ -96,11 +96,113 @@
                     </ul>
                   </div>
               </div>
-         </nav>
-           
+              <div class=" mx-20">
+                  <div class=" text-center space-y-3">
+                      <h3 class="text-5xl text-[#111111] font-semibold">Freshness <span class="text-[#179800]"> You Can <br> Count</span> 
+                        On, Prices You’ll Love!</h3>
+                        <p class=" text-[#111111] text-sm">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+                    </div>
+                    <div class="">
+                        <img src="c2-assets/hero-vegetables.png" alt="">
+                    </div>
+                </div>
+                
+            </nav>
     </header>
-    <main>
+    <main class="container mx-auto   md:mx-10 lg:mx-20 " >
+        <section class="my-14 mx-8">
+          <h3 class="text-3xl text-[#179800] font-semibold">Services</h3>
+          <div class=" mt-6 grid grid-cols-1 gap-4  md:grid-cols-2 lg:grid-cols-3 ">
 
+              <!-- csrd-1 -->
+              <div class="card bg-[#EFEBE3] w-full  shadow-xl">
+                  <figure class="px-10 pt-10">
+                      <div class="avatar">
+                          <div class="w-24 rounded-full bg-white">
+                              <img class=" p-4" src="c2-assets/service.png" />
+                            </div>
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-semibold text-xl ">24/7 Services </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                        <div class="card-actions">
+                            <button class="btn btn-outline btn-success">Success</button>
+                        </div>
+            </div>
+        </div>
+        <!-- csrd-2 -->
+        <div class="card bg-[#EFEBE3] w-full shadow-xl">
+            <figure class="px-10 pt-10">
+                <div class="avatar">
+                    <div class="w-24 rounded-full bg-white">
+                        <img class=" p-4" src="c2-assets/delivery.png" />
+                    </div>
+                </div>
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title font-semibold text-xl ">Fast Delivery </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                <div class="card-actions">
+                    <button class="btn btn-outline btn-success">Success</button>
+                </div>
+            </div>
+        </div>
+        <!-- csrd-3 -->
+        <div class="card bg-[#EFEBE3] w-full shadow-xl">
+            <figure class="px-10 pt-10">
+                <div class="avatar">
+                    <div class="w-24 rounded-full bg-white">
+                        <img class=" p-4" src="c2-assets/healthy.png" />
+                    </div>
+                </div>
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title font-semibold text-xl ">Healthy Products  </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                <div class="card-actions">
+                    <button class="btn btn-outline btn-success">Success</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+        <section class="text-[#EFEBE3] my-14 mx-8">
+            <h3 class="text-3xl text-[#179800] font-semibold mb-6">Popular Products</h3>
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
+                <!-- pic section -->
+                 <div class="  flex  bg-gradient-to-t from-[#7fb777] to-[#38fc0c] rounded-lg  ">
+                    <div class="px-6 py-11 space-y-4">
+                        <h3 class="text-3xl text-white font-semibold">30% off</h3>
+                        <p class="text-[#111111] text-lg ">Discover a world of treate, toys and <br> essentials handpioked for </p>
+                        <button class="text-[#111111] text-lg bg-white px-7 py-3 rounded-lg font-medium">Buy Now</button> 
+                    </div>
+                    <div class="relative  ">
+                       <img class="mt-20" src="c2-assets/vegetable-offer.png" alt="">
+
+                    </div>
+                 </div>
+                 <!-- minicard makle -->
+                  <div class="w-full   grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-3 ">
+                     <!-- card-1 -->
+                      <div class=" w-full md:h-24 rounded-xl shadow-lg p-4 space-x-3  grid grid-cols-2">
+                        <!-- card-img -->
+                        <div class="avatar ">
+                            <div class="lg:16 md:h-16 w-24 rounded bg-[#EFEBE3]">
+                              <img src="c2-assets/onion.png" />
+                            </div>
+                          </div>
+                           <!-- card-text -->
+                            <div class="lg:16 md:h-16 ">
+                                 <h4 class="md:text-xs lg:text-xs text-[#111111]   "><i class="fa-solid fa-star text-[#FFC107]"></i>4.5</h4>
+                                 <h3 class="md:text-xs lg:text-xs te font-mediumc  text-[#111111]">Onion 1 KG</h3>
+                                 <h4 class="font-medium text-xl text-[#111111] lg:text-sm md:text-sm">$39.99</h4>
+                            </div>
+                      </div>
+                     
+                  </div>
+            </div>
+        </section>
     </main>
     <header>
 
